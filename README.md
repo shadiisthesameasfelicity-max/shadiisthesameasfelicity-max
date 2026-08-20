@@ -1,30 +1,70 @@
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadiisthesameasfelicity-max /shadiisthesameasfelicity-max /main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shadiisthesameasfelicity-max /shadiisthesameasfelicity-max /main/light.svg">
+  <img alt="Shadi Alaghehmand" src="https://raw.githubusercontent.com/shadiisthesameasfelicity-max/shadiisthesameasfelicity-max /main/light.svg">
+</picture>
 
-text
-I want to create a highly premium, animated GitHub Profile README featuring dynamic, self-contained SVG files. Please write Python scripts that generate three high-end SVG files using pure SMIL animations (no external CSS or JS dependencies). 
-Here are the strict requirements for the aesthetic and files:
-1. **Aesthetics & Vibe:** 
-   - Deep dark mode (#0d1117 background, glassmorphism, cinematic glows).
-   - Cyberpunk/Developer aesthetic with neon accents (cyan, green, orange, purple).
-   - High frame-rate, smooth CSS/SMIL animations built directly into the SVGs.
-2. **File 1: `github-contribution-animation.svg` (Contribution Graph)**
-   - Create a Python script to generate a 53x7 GitHub contribution calendar.
-   - **Animation:** Implement a diagonal "slant reveal". The squares should sweep in from the bottom-left to top-right.
-   - **Effects:** As each square appears, it should have a brief, bright white/green "glint" or specular highlight that flashes and fades out, settling into its normal contribution color. Level 3+ squares should have an outer glow filter.
-3. **File 2: `terminal-card.svg` (ASCII Portrait Terminal)**
-   - Create a Python script that fetches a GitHub avatar (using my username) and converts it into dense ASCII art using `Pillow`.
-   - **Animation:** Place this ASCII art inside a macOS-style terminal window. Animate the ASCII art revealing row-by-row, top-to-bottom, with a white cursor block sweeping left-to-right across each row.
-   - **Footer:** Add a typewriter animation at the bottom simulating `$ whoami` followed by the user's name.
-4. **File 3: `info-card.svg` (Neofetch Info Card)**
-   - Create a smaller, neofetch-style card that sits next to the ASCII portrait.
-   - Include sections for About, Stack, and Highlights using colors (Orange, Blue, Green, Cyan, White).
-   - **Animation:** Each line should slide up and fade in with a staggered delay (0.06s between each row) to simulate a terminal printing the neofetch output.
-5. **README Integration:**
-   - The Python script should automatically inject the `terminal-card.svg` and `info-card.svg` side-by-side using an HTML `<table>` into the `README.md`, and place the `github-contribution-animation.svg` centered below it.
-Please provide the complete, ready-to-run Python code for this setup.
-max&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<!-- ===== GITHUB STATS ===== -->
 
----
-[![](https://komarev.com/ghpvc/?username=shadiisthesameasfelicity-max&icon=0&color=0)](https://visitcount.itsvg.in)
+<div align="center">
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- Streak — full width -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=arifhaxn&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=arifhaxn&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Arif's streak" />
+</picture>
+
+<br/>
+
+<!-- Stats + Top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=arifhaxn&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=arifhaxn&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Arif's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=arifhaxn&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=shadiisthesameasfelicity-max &layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+</picture>
+
+</div>
+
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadiisthesameasfelicity-max/shadiisthesameasfelicity-max /output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shadiisthesameasfelicity-max/shadiisthesameasfelicity-max /output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/shadiisthesameasfelicity-max/shadiisthesameasfelicity-max/output/snake-light.svg" />
+</picture>
+
+</div>
+
+<!-- ===== END SNAKE ===== -->
+<br/>
+<br/>
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/arifhaxn/shadiisthesameasfelicity-max/projects/projects.svg" alt="Projects" />
+</div>
+
+<!-- ===== SOCIAL BADGES ===== -->
+<br/>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/shadi-alaghehmand-2184913b1/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logoColor=white&labelColor=0A101F&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyNSAweiIvPjwvc3ZnPg==" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+
+<a href="shadiisthesameasfelicity@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
+&nbsp;&nbsp;
+</div>
+
+<!-- ===== END SOCIAL BADGES ===== -->
+
+<!-- =================================== -->
