@@ -52,9 +52,4 @@ Front-End Developer focused on React & JavaScript — I build clean, responsive 
   <img src="https://raw.githubusercontent.com/shadiisthesameasfelicity-max/shadiisthesameasfelicity-max/output/github-contribution-grid-snake.svg" />
 </p>
 
----
-
-### 🚀 Featured Projects
-
-> Pin 2-3 of your strongest, most complete projects here (with live demo links) instead of practice/demo repos — it reads much stronger to visitors and recruiters.
 
